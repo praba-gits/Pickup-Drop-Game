@@ -22,6 +22,7 @@ public class Delivery : MonoBehaviour
         if(other.tag == "Delivery" && hasPackage)
         {
             Debug.Log("Delivered Sucessfully");
+            hasPackage = false;
         }
     }
    
